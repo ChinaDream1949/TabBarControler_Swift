@@ -15,6 +15,11 @@
 		D048C36C2560533B00A35F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D048C36A2560533B00A35F55 /* LaunchScreen.storyboard */; };
 		D048C3772560533B00A35F55 /* TabBarControler_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048C3762560533B00A35F55 /* TabBarControler_SwiftTests.swift */; };
 		D048C3822560533B00A35F55 /* TabBarControler_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048C3812560533B00A35F55 /* TabBarControler_SwiftUITests.swift */; };
+		D08CDFA42563CFC6003BC03F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08CDFA32563CFC6003BC03F /* FirstViewController.swift */; };
+		D08CDFA92563CFDC003BC03F /* SecenedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08CDFA82563CFDC003BC03F /* SecenedViewController.swift */; };
+		D08CDFB22563D027003BC03F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08CDFB12563D027003BC03F /* TabBarViewController.swift */; };
+		D08CDFBB2563D0CE003BC03F /* CostomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08CDFBA2563D0CE003BC03F /* CostomAnimator.swift */; };
+		D08CDFC42563D79A003BC03F /* CostomInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08CDFC32563D79A003BC03F /* CostomInteraction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D048C37D2560533B00A35F55 /* TabBarControler_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControler_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D048C3812560533B00A35F55 /* TabBarControler_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControler_SwiftUITests.swift; sourceTree = "<group>"; };
 		D048C3832560533B00A35F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08CDFA32563CFC6003BC03F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D08CDFA82563CFDC003BC03F /* SecenedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecenedViewController.swift; sourceTree = "<group>"; };
+		D08CDFB12563D027003BC03F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D08CDFBA2563D0CE003BC03F /* CostomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostomAnimator.swift; sourceTree = "<group>"; };
+		D08CDFC32563D79A003BC03F /* CostomInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostomInteraction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,9 @@
 				D048C35F2560533900A35F55 /* AppDelegate.swift */,
 				D048C3612560533900A35F55 /* SceneDelegate.swift */,
 				D048C3632560533900A35F55 /* ViewController.swift */,
+				D08CDFBF2563D0D6003BC03F /* Animation */,
+				D08CDFB62563D02B003BC03F /* Tba */,
+				D08CDFAD2563CFE0003BC03F /* VC */,
 				D048C3652560533900A35F55 /* Main.storyboard */,
 				D048C3682560533B00A35F55 /* Assets.xcassets */,
 				D048C36A2560533B00A35F55 /* LaunchScreen.storyboard */,
@@ -126,6 +139,32 @@
 				D048C3832560533B00A35F55 /* Info.plist */,
 			);
 			path = TabBarControler_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		D08CDFAD2563CFE0003BC03F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D08CDFA32563CFC6003BC03F /* FirstViewController.swift */,
+				D08CDFA82563CFDC003BC03F /* SecenedViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D08CDFB62563D02B003BC03F /* Tba */ = {
+			isa = PBXGroup;
+			children = (
+				D08CDFB12563D027003BC03F /* TabBarViewController.swift */,
+			);
+			path = Tba;
+			sourceTree = "<group>";
+		};
+		D08CDFBF2563D0D6003BC03F /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D08CDFBA2563D0CE003BC03F /* CostomAnimator.swift */,
+				D08CDFC32563D79A003BC03F /* CostomInteraction.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D048C3642560533900A35F55 /* ViewController.swift in Sources */,
+				D08CDFA92563CFDC003BC03F /* SecenedViewController.swift in Sources */,
 				D048C3602560533900A35F55 /* AppDelegate.swift in Sources */,
 				D048C3622560533900A35F55 /* SceneDelegate.swift in Sources */,
+				D08CDFB22563D027003BC03F /* TabBarViewController.swift in Sources */,
+				D08CDFBB2563D0CE003BC03F /* CostomAnimator.swift in Sources */,
+				D08CDFA42563CFC6003BC03F /* FirstViewController.swift in Sources */,
+				D08CDFC42563D79A003BC03F /* CostomInteraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

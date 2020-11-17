@@ -11,23 +11,22 @@
         <!--iphone 11-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabBarControler_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="TabBarControler_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nB4-LW-FwO">
-                                <rect key="frame" x="114" y="383" width="186" height="91"/>
+                                <rect key="frame" x="154" y="383" width="106" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="9w2-d0-MAP"/>
-                                    <constraint firstAttribute="width" constant="186" id="WWP-hm-TkI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <state key="normal" title="iPhone 11"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
                             <constraint firstItem="nB4-LW-FwO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="VnE-Cy-gNq"/>
                             <constraint firstItem="nB4-LW-FwO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="q4w-nA-UBw"/>
@@ -42,7 +41,7 @@
         <!--OPPO-->
         <scene sceneID="Nyi-or-Dze">
             <objects>
-                <viewController id="Mkw-oT-IMA" sceneMemberID="viewController">
+                <viewController id="Mkw-oT-IMA" customClass="SecenedViewController" customModule="TabBarControler_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ipA-6d-jwh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +51,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JYn-35-kXF"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="RNC-Z2-PcO" firstAttribute="leading" secondItem="JYn-35-kXF" secondAttribute="leading" id="PKx-yR-ULG"/>
                             <constraint firstItem="RNC-Z2-PcO" firstAttribute="top" secondItem="JYn-35-kXF" secondAttribute="top" id="bv2-aa-h7C"/>
@@ -67,12 +66,13 @@
             </objects>
             <point key="canvasLocation" x="1040.5797101449275" y="126.5625"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="M9h-AP-TOn">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qns-ii-9e3" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qns-ii-9e3" customClass="TabBarViewController" customModule="TabBarControler_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ER6-ze-Lhu">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -92,8 +92,11 @@
         <image name="homepod.fill" catalog="system" width="114" height="128"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
